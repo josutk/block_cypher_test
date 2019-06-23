@@ -14,8 +14,7 @@ class BlockCypherCurrency
     def bcy_crypto_currency()
         bc_test = BlockCypher::Api.new(currency:BlockCypher::BCY, network:BlockCypher::TEST_NET, api_token:MY_TOKEN)
 
-        u = bc_test.address_generate
-        puts u
+        bc_test.address_generate
 	    result =  bc_test.faucet(RECEIVE_WALLET, CRYPTO_CURRENCY_VALUE)
 	    if result["tx_ref"]
 		    @transaction = result["tx_ref"].to_s
