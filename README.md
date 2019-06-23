@@ -1,7 +1,8 @@
-# block_cypher_test
+# BlockCypherTest
 
 
-<b>Para rodar os testes, instale a seguinte gem</b>
+<p>Para rodar os testes, instale a seguinte gem:</p>
+
 ```
 
 gem install blockcypher-ruby
@@ -11,4 +12,4 @@ gem install blockcypher-ruby
 
 ## Para rodar o teste
 
-<b>ruby block_cypher_test.rb</b>
+<p>ruby block_cypher_test.rb</p>
